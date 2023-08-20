@@ -1,5 +1,7 @@
 import APIRequest from "../utils/config/axios.config";
 
+
+
 export default function getRamdonUser(){
     return APIRequest.get('/', {
         validateStatus: function (status) {

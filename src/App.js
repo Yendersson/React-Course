@@ -16,6 +16,7 @@ import AsyncExample from './components/pure/AsyncExample';
 import ObservableExample from './components/pure/forms/ObservableExample';
 import FetchExample from './components/pure/FetchExample';
 import AxiosExample from './components/pure/AxiosExample';
+import AxiosCrudExample from './components/pure/AxiosCRUDExample';
 
 function App() {
   return (
@@ -53,8 +54,9 @@ function App() {
         <AsyncExample></AsyncExample>
           <ObservableExample></ObservableExample>
           <FetchExample></FetchExample>
-          */}
           <AxiosExample></AxiosExample>
+          */}
+          <AxiosCrudExample></AxiosCrudExample>
           {/* Ejemplos de 'procesos asincronos */}
     </div>
   );

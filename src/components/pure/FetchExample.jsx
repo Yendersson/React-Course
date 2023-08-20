@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { getAllPagedUsers, getAllUsers, getUserDetails, login } from "../../services/fetchService";
-import { cleanup } from "@testing-library/react";
 
 const FetchExample = () => {
 
