@@ -14,6 +14,8 @@ import LoginFormik from './components/pure/forms/loginFormik';
 import RegisterFormik from './components/pure/forms/registerFormik';
 import AsyncExample from './components/pure/AsyncExample';
 import ObservableExample from './components/pure/forms/ObservableExample';
+import FetchExample from './components/pure/FetchExample';
+import AxiosExample from './components/pure/AxiosExample';
 
 function App() {
   return (
@@ -49,8 +51,10 @@ function App() {
          {/*Ejemplos del renderizado condicional
          <OptionalRender></OptionalRender>
         <AsyncExample></AsyncExample>
-          */}
           <ObservableExample></ObservableExample>
+          <FetchExample></FetchExample>
+          */}
+          <AxiosExample></AxiosExample>
           {/* Ejemplos de 'procesos asincronos */}
     </div>
   );
